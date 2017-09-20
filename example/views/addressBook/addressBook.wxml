@@ -1,0 +1,23 @@
+<!--example/views/addressBook/addressBook.wxml-->
+<!--通讯录  -->
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-cells weui-cells_after-title">
+      <navigator url="../personalInfoBlock/personalInfoBlock" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image class='addressIcon' src="../../img/logo.png"></image>
+        </view>
+        <view class="weui-cell__bd">赵鑫</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">河南省教育局长</view>
+      </navigator>
+      <navigator url="../personalInfoBlock/personalInfoBlock" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image class='addressIcon' src="../../img/logo.png"></image>
+        </view>
+        <view class="weui-cell__bd">白宇熙</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">河南省教育局长</view>
+      </navigator>
+      
+    </view>
+  </view>
+</view>

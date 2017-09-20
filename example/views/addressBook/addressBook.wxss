@@ -1,0 +1,2 @@
+/* example/views/addressBook/addressBook.wxss */
+.weui-cell__ft_in-access{font-size: 13px;color: #4ca5c1;}

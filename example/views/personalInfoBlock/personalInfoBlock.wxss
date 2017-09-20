@@ -1,0 +1,3 @@
+/* example/views/personalInfoBlock/personalInfoBlock.wxss */
+page{background-color: #fff;}
+.submitForm .weui-cell__bd label:first-child{display: inline-block;width: 150px;text-align: right;}

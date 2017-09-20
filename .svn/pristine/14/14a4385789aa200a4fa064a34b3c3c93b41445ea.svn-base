@@ -1,0 +1,40 @@
+<!--example/views/personalInfo/personalInfo.wxml-->
+<view class="page">
+  <view class='setInfo'>
+    <view class="userHeaderImg">
+      <image src='../../img/photo3.jpg'></image>
+    </view>
+    <view class='userName'>
+      <text>༻ི爱&欣༄୭</text>
+    </view>
+    <view>
+      <text class='promptText'>请认真填写下列资料，我们会根据资料信息确定您在本次课程中的身份，谢谢！</text>
+    </view>
+  </view>
+  <form>
+    <view class='submitForm'>
+      <view class="weui-cell__bd">
+        <image class='input_icon' src='../../img/xingming.png'></image>
+        <input type='text' class="weui-input" placeholder="请输入真实姓名" />
+      </view>
+      <view class="weui-cell__bd">
+        <image class='input_icon' src='../../img/iphone.png'></image>
+        <input type='tel' class="weui-input" maxlength='11' placeholder="请输入手机号" />
+      </view>
+
+      <view class="weui-cell__bd">
+        <image class='input_icon' src='../../img/danwei.png'></image>
+        <input type='text' class="weui-input " placeholder="任职单位" />
+      </view>
+
+      <view class="weui-cell__bd">
+        <image class='input_icon' src='../../img/zhiwei.png'></image>
+        <input type='text' class="weui-input" placeholder="职务" />
+      </view>
+      <view class="weui-cell__bd">
+        <button class="weui-btn" type="primary">确定</button>
+      </view>
+    </view>
+  </form>
+
+</view>

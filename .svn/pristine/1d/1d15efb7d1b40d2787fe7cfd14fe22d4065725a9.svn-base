@@ -1,0 +1,137 @@
+<!--首页  -->
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-panel">
+      <view class="weui-panel__bd">
+        <view class="weui-media-box_text">
+          <view class="signBox weui-media-box">
+            <text class='headerTitle'>第三十四期全国县市教育局长培训班</text>
+            <view>
+              <view class='signLeft'>
+                <text class='weui-media-box__desc'>已签到：12次</text>
+              </view>
+              <view class="signRight">
+                <button class="weui-btn mini-btn" size="mini" type="primary" plain='true' bindtap="scanCodeOpen">签到</button>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!--任务开始 -->
+    <view class=" weui-panel">
+      <view class='weui-panel__hd'>
+        <text class="headerTitle">任务</text>
+        <view class='headerLink'>
+          <image class="courseIcon" src="../../img/taskIcon.png"></image>
+        </view>
+      </view>
+      <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_text infoBox">
+          <view class="weui-media-box__title  infoHeader">
+            <text class='weui-media-box__desc infoLeft'>未完成</text>
+            <view class='infoRight'>
+              <label class='red-text'>40</label>
+              <label class='weui-media-box__desc' style='margin-top:3px'>封</label>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!--任务结束 -->
+
+    <!--课程开始 -->
+    <view class=" weui-panel">
+      <view class='weui-panel__hd'>
+        <text class="headerTitle">课程</text>
+        <view class='headerLink'>
+          <image class="courseIcon" src="../../img/courseIcon.png"></image>
+        </view>
+      </view>
+      <navigator url='../courseDetails/courseDetails'>
+        <view class="weui-panel__hd">
+          <view class='sectionBox'>
+            <view class='sectionTitleBox'>
+              <image class="courseIcon" src="../../img/titleIcon.png"></image>
+              <text class='sectionTitle'>教育刚要讨论</text>
+            </view>
+            <text class='sectionTime'>2017-09-13\n09:00--11:00</text>
+          </view>
+          <view class='sectionInfo '>
+            <label class=''>教员：赵鑫</label>
+            <label>地点：第一会议室</label>
+            <label>简述：根据国家教育刚要进行解读</label>
+
+          </view>
+        </view>
+      </navigator>
+      <navigator url='../courseDetails/courseDetails'>
+        <view class="weui-panel__hd">
+          <view class='sectionBox'>
+            <view class='sectionTitleBox'>
+              <image class="courseIcon" src="../../img/titleIcon.png"></image>
+              <text class='sectionTitle'>教育刚要讨论</text>
+            </view>
+            <text class='sectionTime'>2017-09-13\n09:00--11:00</text>
+          </view>
+          <view class='sectionInfo '>
+            <label class=''>教员：赵鑫</label>
+            <label>地点：第一会议室</label>
+            <label>简述：根据国家教育刚要进行解读</label>
+
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <!--课程结束 -->
+
+    <!--通讯录入口开始 -->
+    <view class="weui-panel">
+      <navigator url='../addressBookList/addressBookList'>
+        <view class="weui-panel__hd">
+          <view class='sectionBox'>
+            <view class='sectionTitleBox'>
+              <image class="icon25" src="../../img/iphoneList2.png"></image>
+              <text class='sectionTitle'>班级学员名录</text>
+            </view>
+            <view class='sectionTime'>54位联系人 </view>
+            
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <!--通讯录入口结束 -->
+
+
+    <!--微信设置个人信息入口开始 -->
+    <view class="weui-panel">
+      <navigator url='../personalInfo/personalInfo'>
+        <view class="weui-panel__hd">
+          <view class='sectionBox'>
+            <view class='sectionTitleBox'>
+              <image class="courseIcon" src="../../img/logo.png"></image>
+              <text class='sectionTitle'>设置个人信息</text>
+            </view>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <!--微信设置个人信息入口结束 -->
+
+    <!--微信设置个人信息入口开始 -->
+    <view class="weui-panel">
+      <navigator url='../authorization/authorization'>
+        <view class="weui-panel__hd">
+          <view class='sectionBox'>
+            <view class='sectionTitleBox'>
+              <image class="courseIcon" src="../../img/logo.png"></image>
+              <text class='sectionTitle'>微信认证</text>
+            </view>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <!--微信设置个人信息入口结束 -->
+
+  </view>
+</view>

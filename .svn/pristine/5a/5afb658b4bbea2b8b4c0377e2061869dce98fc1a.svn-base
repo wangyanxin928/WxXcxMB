@@ -1,0 +1,81 @@
+<!--example/views/discussList/discussList.wxml-->
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-panel">
+      <view class='discussInfo'>
+        <image class="courseIcon discussImg" src='../../img/photo3.jpg'></image>
+        <view class='discussBox'>
+
+          <view class='discussName'>
+            <view class="name">赵鑫</view>
+            <view class="weui-cell__ft ">09:41</view>
+          </view>
+
+          <view class='discussText'>
+            江苏省地质协会科普委员会副主任；
+          </view>
+        </view>
+        <view class='respondBox'>
+          <image class="respondIcon" src="../../img/respondIcon.png"></image>
+          <view class='respondInfo'>
+            <view class='laud'>
+              <image class="courseIcon" src="../../img/heart.png"></image>
+              <label>赞</label>
+            </view>
+            <view class='evaluate'>
+              <image class="courseIcon" src="../../img/commentIcon.png"></image>
+              <label>评论</label>
+            </view>
+          </view>
+        </view>
+        <view class='talkList'>
+          <view class='talkInfo'>
+            <label>白宇熙：</label>
+            <text>用适度有效的表扬进行评价，让课堂充满热烈。</text>
+          </view>
+        </view>
+      </view>
+
+      <view class='discussInfo '>
+        <image class="courseIcon discussImg" src='../../img/photo3.jpg'></image>
+        <view class='discussBox'>
+
+          <view class='discussName'>
+            <view class="name">赵鑫</view>
+            <view class="weui-cell__ft ">09:41</view>
+          </view>
+
+          <view class='discussText'>
+            江苏省地质协会科普委员会副主任；享受国务院政府特殊津贴奖励；2004年，他主持的《地球科学概论》被评为国家精品课程。
+          </view>
+        </view>
+        <view class='respondBox'>
+          <image class="respondIcon" src="../../img/respondIcon.png"></image>
+          <view class='respondInfo'>
+            <view class='laud'>
+              <image class="courseIcon" src="../../img/heart3.png"></image>
+              <label>取消</label>
+            </view>
+            <view class='evaluate'>
+              <image class="courseIcon" src="../../img/commentIcon.png"></image>
+              <label>评论</label>
+            </view>
+          </view>
+        </view>
+        <view class='talkList'>
+          <view class='heartBox'>
+            <view class='heartInfo'>
+              <image class="heartIcon" src='../../img/heartListIcon.png'></image>
+              <view class='heartList'>白宇熙 王燕欣</view>
+            </view>
+          </view>
+          <view class='talkInfo'>
+            <label>白宇熙：</label>
+            <text>用适度有效的表扬进行评价，让课堂充满热烈。</text>
+          </view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>

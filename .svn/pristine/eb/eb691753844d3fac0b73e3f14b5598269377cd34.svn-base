@@ -1,0 +1,97 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-panel">
+      <view class="weui-panel__bd">
+        <view class="weui-media-box_text">
+          <view class="signBox weui-media-box">
+            <view class='signLeft'>
+              <text>第三十四期全国县市教育局长培训班</text>
+              <text class='weui-media-box__desc'>已签到：12次</text>
+            </view>
+            <view class="signRight">
+              <navigator url='../pageList/pageList'>
+                <button class="weui-btn" type="primary" plain='true'>签到</button>
+              </navigator>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!--任务开始 -->
+    <view class=" weui-panel">
+      <view class='weui-panel__hd'>
+        <text class="headerTitle">任务</text>
+        <view class='headerLink'>
+          <image class="icon30" src="../../img/logo.png"></image>
+        </view>
+      </view>
+      <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_text infoBox">
+          <view class="weui-media-box__title weui-media-box__title_in-text infoHeader">
+            <text class='weui-media-box__desc infoLeft'>未完成</text>
+            <view class='infoRight'>
+              <label class='red-text'>40</label>
+              <label class='weui-media-box__desc'>封</label>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!--任务结束 -->
+
+    <!--课程开始 -->
+    <view class=" weui-panel">
+      <view class='weui-panel__hd'>
+        <text class="headerTitle">课程</text>
+        <view class='headerLink'>
+          <image class="icon30" src="../../img/logo.png"></image>
+        </view>
+      </view>
+      <view class="weui-panel__hd">
+        <view class='sectionBox'>
+          <view class='sectionTitleBox'>
+            <image class="courseIcon" src="../../img/logo.png"></image>
+            <text class='sectionTitle'>教育刚要讨论</text>
+          </view>
+          <text class='sectionTime'>2017-09-13 09:00--11:00</text>
+        </view>
+        <view class='sectionInfo '>
+          <label class=''>教员：赵鑫</label>
+          <label>讨论会简述：根据国家教育刚要进行解读</label>
+          <label>地点：第一会议室</label>
+        </view>
+      </view>
+      <view class="weui-panel__hd">
+        <view class='sectionBox'>
+          <view class='sectionTitleBox'>
+            <image class="courseIcon" src="../../img/logo.png"></image>
+            <text class='sectionTitle'>教育刚要讨论</text>
+          </view>
+          <text class='sectionTime'>2017-09-13 09:00--11:00</text>
+        </view>
+        <view class='sectionInfo '>
+          <label class=''>教员：赵鑫</label>
+          <label>讨论会简述：根据国家教育刚要进行解读</label>
+          <label>地点：第一会议室</label>
+        </view>
+      </view>
+    </view>
+    <!--课程结束 -->
+
+    <!--列表开始 -->
+    <view class="weui-panel">
+      <navigator url='../addressBook/addressBook'>
+        <view class="weui-panel__hd">
+          <view class='sectionBox'>
+            <view class='sectionTitleBox'>
+              <image class="courseIcon" src="../../img/logo.png"></image>
+              <text class='sectionTitle'>班级学员名录</text>
+            </view>
+            <text class='sectionTime'>54位联系人</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <!--列表结束 -->
+  </view>
+</view>

@@ -1,0 +1,79 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+
+<view class="page me">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.userInfoAvatar}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <!-- <view class="usermotto">
+        <text class="user-motto">{{motto}}</text>
+      </view> -->
+  </view>
+  <view class="weui-cells__title">个人信息</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">性别：{{userInfo.sex}}</view>
+    </view> 
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">语言：中国</view>
+    </view>
+  </view>
+  <view class="weui-cells__title">所属地</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">国家：{{userInfo.country}}</view>
+    </view> 
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">省市：{{userInfo.province}}</view>
+    </view> 
+    <view class="weui-cell">
+      <view class="weui-cell__hd">
+        <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </view>
+      <view class="weui-cell__bd">区县：{{userInfo.city}}</view>
+    </view> 
+  </view>
+
+  <!-- <view class="about">
+        <view class="about-item">
+          <text class="about-item-title">关于安全督导</text>
+          <text class="about-item-content">使用cnode社区api做微信小应用（实现了数据的读取、展示，滑到底部加载下一页，loading加载）</text>
+        </view>
+        <view class="about-item">
+          <text class="about-item-title">用户协议</text>
+          <text class="about-item-content link">https://github.com/vincentSea</text>
+        </view>
+        <view class="about-item">
+          <text class="about-item-title">组织机构</text>
+          <text class="about-item-content link">中华人民共和国教育部</text>
+        </view>
+        <view class="about-item">
+          <text class="about-item-title">授权企业</text>
+          <text class="about-item-content link">北京安鑫育仁</text>
+        </view>
+        <view class="about-item">
+          <text class="about-item-title">当前版本</text>
+          <text class="about-item-content ">V1.0.0 Beta</text>
+        </view>
+    </view> -->
+</view>

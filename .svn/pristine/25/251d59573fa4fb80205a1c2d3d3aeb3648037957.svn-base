@@ -1,0 +1,92 @@
+<!--example/views/courseDetails/courseDetails.wxml-->
+<!-- 课程详细  -->
+<view class="page">
+  <view class="page__bd">
+    <view class=" weui-panel">
+      <view class='courseDetails'>
+        <view class="weui-panel__hd">
+          <view class='sectionBox'>
+            <view class='sectionTitleBox'>
+              <image class="courseIcon" src="../../img/titleIcon.png"></image>
+              <text class='headerTitle'>教育刚要讨论</text>
+            </view>
+            <text class='sectionTime'>2017-09-13\n09:00--11:00</text>
+          </view>
+          <view class='sectionInfo '>
+            <label class=''>教员：赵鑫</label>
+            <label>地点：第一会议室</label>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-panel">
+      <view class="weui-panel__hd">
+        <view class='sectionBox'>
+          <view class='sectionTitleBox'>
+            <image class="courseIcon" src="../../img/course.png"></image>
+            <text class='sectionTitle'>课程简介</text>
+          </view>
+        </view>
+      </view>
+      <view class="weui-panel__hd">
+        <text class='briefText'> “中国文化通论”是澳门科技大学通识教育体系中的一门必修课程。课程内容涉及中国历史、社会、哲学、宗教、文学、艺术、科技、教育等领域的文化现象及其社会意义。本课程旨在普及中国文化领域的基础知识，帮助学生了解中国文化的重要成果、重大事件和杰出人物，体会中国文化的社会价值与重要作用，感悟文化的精神魅力。要求学生学会用正确的世界观与方法论分析历史文化现象，从而继承和发扬优良的历史文化传统，并且汲取精华、优化素质，努力成长为时代需要的高质量人才。
+        </text>
+      </view>
+    </view>
+
+    <view class="weui-panel">
+      <view class="weui-panel__hd">
+        <view class='sectionBox'>
+          <view class='sectionTitleBox'>
+            <image class="courseIcon" src="../../img/teacher.png"></image>
+            <text class='sectionTitle'>教师简介</text>
+          </view>
+        </view>
+      </view>
+      <view class="weui-panel__hd">
+        <text class='briefText'> 徐士进，男。南京大学地球科学系教授，博导。主要科研方向为地球信息技术、地质过程的示踪与模拟。承担国家自然科学基金、部委攻关课题多项，在国内外发表学术论文70余篇，出版着（译）作4本。曾获得国家教委科技进步二等奖和一等奖，江苏省教学一等奖和国家教学二等奖。现任南京大学多媒体科教中心主任；教育部现代教育技术协作委员会学术委员副主任；江苏省地质协会科普委员会副主任；享受国务院政府特殊津贴奖励；2004年，他主持的《地球科学概论》被评为国家精品课程。2007年被教育部评为“全国高等学校教学名师”。
+        </text>
+      </view>
+    </view>
+
+    <view class="weui-panel">
+      <view class="weui-cells weui-cells_after-title">
+        <view bindtap="listenerButtonDownLoadFile" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <image class="courseIcon" src="../../img/dataIcon.png"></image>
+            <text class='sectionTitle'>课程资料</text>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-panel">
+      <view class="weui-cells weui-cells_after-title">
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <image class="courseIcon" src="../../img/evaluateIcon.png"></image>
+            <text class='sectionTitle'>课程评价</text>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+      </view>
+    </view>
+
+
+    <view class="weui-panel">
+      <view class="weui-panel__hd">
+        <view class='sectionBox'>
+          <view class='sectionTitleBox'>
+            <image class="courseIcon" src="../../img/discussIcon.png"></image>
+            <text class='sectionTitle'>讨论区</text>
+          </view>
+        </view>
+      </view>
+      <view class="weui-panel__hd">
+       
+      </view>
+    </view>
+  </view>
+</view>

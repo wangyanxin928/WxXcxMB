@@ -1,0 +1,3 @@
+/* example/views/authorization/authorization.wxss */
+.button-sp-area{margin: 10pt auto;padding-top: 15px;width: 60%;}
+.userHeaderImg{margin-top: 100pt;}

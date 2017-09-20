@@ -1,0 +1,91 @@
+@import 'style/weui.wxss';
+
+page {
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.page__hd {
+  padding: 40px;
+}
+
+.page__bd {
+  padding-bottom: 40px;
+}
+
+.page__bd_spacing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page__ft {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.page__title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.page__desc {
+  margin-top: 5px;
+  color: #888;
+  text-align: left;
+  font-size: 14px;
+}
+
+  /* by 王燕欣 start   */
+.textAuto{width: 100%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;padding-right: 15px;}
+.telText{color: #36a7ff;}
+.red-text{color: red;font-size: 18px;margin-right: 5px;}
+.icon30{display: inline-block;width: 20px;height: 20px; position: relative;top: 4px;}
+.signBox{width: 100%;height: 82px;}
+.signLeft{width: 75%;height: 100%;float: left;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.signLeft .weui-media-box__desc{margin-top: 10px;}
+.signRight{width: 20%;height: 100%;float: right;line-height: 100%;text-align: right;}
+
+.headerTitle{font-size: 16px;color: #333;text-align: left;width: 90%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;display: inline-block;}
+.headerLink{width:10%;height: 100%; display: inline-block;float: right; }
+
+.infoBox{width: 100%;height: 100%;display: block;}
+.infoBox .infoHeader{width: 100%;height: 100%;display: block;line-height: 100%}
+.infoBox .infoHeader .infoLeft{width: 50%;height: 100%;display: blockl;float: left;}
+.infoBox .infoHeader .infoRight{width: 50%;height: 100%;display: blockl;float: right;text-align: right;}
+.infoBox .infoHeader label{display: inline-block;}
+
+.sectionBox .sectionTitleBox{display: inline-block;width: 60%;}
+.sectionBox .courseIcon {display: inline-block;width: 20px;height: 20px;margin-right: 5px;}
+.sectionBox .sectionTitle{display: inline-block;font-size: 14px;color: #333;width:calc(100% - 25px);overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.sectionBox .sectionTime{display: inline-block;width: 40%;text-align: right;font-size: 14px;color: #333;float: right;}
+.sectionInfo{position: relative;top: -10px;}
+.sectionInfo label{display: block;width: 100%;color: #333;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+
+.userHeaderImg{height: 100px;width: 100px;background-color: #333;border-radius: 50%;margin: auto;}
+.userHeaderImg image{width: 100%;height: 100%;display: block;font-size: 100% 100%;background-repeat: no-repeat;border-radius: 50%;}
+.userName {width: 100%;height: 100%;margin: auto;margin-top: 10px;text-align: center;}
+.userAgreement{width: 100%;height: 100%;text-align: center;color: #999;font-size: 11px;}
+.userAgreement label{color: red;}
+
+.promptText{font-size: 14px;color: #666666;opacity: 0.6;display: block;padding: 0px 15px;text-indent: 28px;}
+
+.setInfo{width: 100%;height: 100%;background-color: #fff;padding-top: 30px;}
+.submitForm{background-color: #fff;padding: 10px 15px;}
+.submitForm .weui-cell__bd{margin-bottom: 10px;position: relative;}
+.submitForm .weui-cell__bd .input_icon{position: absolute;width: 24px;height: 24px;top:5px;left: 0px;}
+.submitForm .weui-input{display: block;width: 100%;border-bottom: 1px solid #36a7ff;padding: 10px;padding-left: 30px;}
+
+
+.addressIcon{margin-right: 5px;vertical-align: middle;width:30px; height: 30px;}
+  /* by 王燕欣 end   */
+  .flex-row{
+  display: flex;
+  flex-direction: row;
+}
+view, scroll-view, input, text{
+  box-sizing: border-box;  
+}
+
+

@@ -1,0 +1,7 @@
+/* example/views/authorization/authorization.wxss */
+.button-sp-area{margin: 10pt auto;padding-top: 15px;width: 60%;}
+.userHeaderImg{height: 100pt;width: 100pt;background-color: #333;border-radius: 50%;margin: auto;margin-top: 100px;}
+.userHeaderImg image{width: 100%;height: 100%;display: block;font-size: 100% 100%;background-repeat: no-repeat;}
+.userName {width: 100%;height: 100%;margin: auto;margin-top: 10pt;text-align: center;}
+.userAgreement{width: 100%;height: 100%;text-align: center;color: #999;font-size: 11px;}
+.userAgreement label{color: red;}

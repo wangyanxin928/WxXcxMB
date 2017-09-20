@@ -1,0 +1,78 @@
+<view class="page">
+
+  <view class="page__bd">
+    <view class="weui-panel weui-panel_access">
+      <view class="weui-panel__hd">组织管理</view>
+      <view class="weui-panel__bd">
+        <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            简介
+          </view>
+        </navigator>
+
+      </view>
+      <view class="weui-panel__ft">
+        <view class="weui-cell weui-cell_access weui-cell_link">
+          <view class="weui-cell__bd">组织管理 word</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </view>
+      </view>
+    </view>
+
+
+    <view class="page__bd">
+      <view class="weui-cells">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <view class="weui-uploader">
+              <view class="weui-uploader__hd">
+                <view class="weui-uploader__title">图片上传</view>
+                <view class="weui-uploader__info">{{files.length}}/9</view>
+              </view>
+              <view class="weui-uploader__bd">
+                <view class="weui-uploader__files" id="uploaderFiles">
+                  <block wx:for="{{files}}" wx:key="*this">
+                    <view class="weui-uploader__file" bindtap="previewImage" id="{{item}}">
+                      <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+                    </view>
+                  </block>
+
+                </view>
+                <view class="weui-uploader__input-box">
+                  <view class="weui-uploader__input" bindtap="chooseImage"></view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+
+    <view class="weui-panel">
+      <view class="weui-panel__hd">督导记录</view>
+      <view class="weui-panel__hd">
+      
+        <!-- <picker  bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <button type="default">添加记录</button>
+        </picker> --> 
+          <button  bindtap="ddTeam" type="default">添加记录</button> 
+      </view>
+
+    </view>
+    <view class="weui-panel">
+      <view class="weui-panel__hd">督导评分</view>
+      <view class="weui-panel__hd">
+        <view class="weui-btn-area">
+          <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+            <button type="default">{{axname}} {{index}}</button>
+          </picker>
+
+        </view>
+      </view>
+    </view>
+    <button class="weui-btn" type="primary">保存提交</button>
+  </view>
+</view>

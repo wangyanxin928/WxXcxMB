@@ -1,0 +1,18 @@
+<!--example/views/authorization/authorization.wxml-->
+<!-- 授权页面  -->
+<view class="page">
+  <view class="userHeaderImg">
+    <image src='../../img/logoB.png'></image>
+  </view>
+  <view class='userName'>
+    <text>༻ི爱&欣༄୭</text>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="button-sp-area">
+      <button class="weui-btn " type="primary" plain="true">登陆并绑定微信号</button>
+    </view>
+    <view class='userAgreement'> 登陆即表示您已阅读，并同意
+      <label>《用户注册协议》</label>
+    </view>
+  </view>
+</view>

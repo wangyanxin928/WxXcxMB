@@ -1,0 +1,42 @@
+<view class="flex-column">
+  <!-- <loading hidden="{{!lyLoading}}">倒计时</loading> -->
+  <!-- //TODO 这里 scroll-view 在 flex 布局下视乎有个 Bug. -->
+  <scroll-view scroll-y="true" class="timeline flex-rest-height">
+    <block wx:for="{{messages}}">
+      <!-- <view bindtap="bofang" data-content="{{item.filePath}}" data-id="{{item.aId}}" class="message flex-row {{item.from === 'sent' ? 'message-sent' : ''}}">
+        <block wx:if="{{!item.image}}">
+          <text style="width:{{item.lyLength}}px ;height:45px ;" class="message-text {{item.from === 'sent' ? 'message-sent-text' : 'message-received-text'}}">
+            {{item.text }}
+          </text>
+          <text>{{item.lyLength }}</text>
+        </block>
+        <image wx:else src="{{item.text}}" class="message-image"></image>
+      </view> -->
+
+      <view  bindtap="bofang" data-content="{{item.filePath}}" data-id="{{item.aId}}"   class="message flex-row {{item.from === 'sent' ? 'message-sent' : ''}}">
+        <image class="headImg" src="../img/logo.png"></image>
+        <view class="m10">
+          <text wx:if=" {{!item.image}}" class="{{item.from==='sent' ? 'headName2' : 'headName'}}">白宇熙</text>
+          <view>
+            <text  style="width:{{item.lyLength*20}}px ;height:45px ;"  wx:if=" {{!item.image}}" class="message-text {{item.from==='sent' ? 'message-sent-text' : 'message-received-text'}} LYwidth">{{item.text}}</text>
+            <image wx:else src="{{item.text}} " class="message-image "></image>
+          </view>
+           <text class="LYtime">{{item.lyLength}}"</text>
+        </view>
+      </view>
+
+
+    </block>
+  </scroll-view>
+
+  <view class="footer flex-row">
+    <!-- <view class="input-container flex-rest-width">
+        <input id="message" value="{{inputValue}}" placeholder="message..." class="message-input" bindchange="bindChange"/>
+      </view> -->
+    <view class="btn-area">
+      <!-- <button bindtap="sendMessage" class="send-message-btn" type="primary" size="mini">Send</button> -->
+      <button bindtouchstart="luyin" bindtouchend="stopluyin" class="send-message-btn " type="primary" size="default">录音</button>
+
+    </view>
+  </view>
+</view>

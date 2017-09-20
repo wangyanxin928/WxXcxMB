@@ -1,0 +1,44 @@
+<!--example/views/addressBookList/addressBookList.wxml-->
+<!--电话列表  -->
+<view class="page">
+  <view class='weui-panel'>
+    <view class='weui-panel__hd'>
+      <view class="weui-cells weui-cells_after-title">
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__hd">
+            <image class='addressIcon' src="../../img/logo.png" ></image>
+          </view>
+          <view class="weui-cell__bd textAuto">第四十六期全国省、地督学培训班</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access">565</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class='weui-panel'>
+    <view class='weui-panel__hd'>
+      <view class="weui-cells weui-cells_after-title">
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__hd">
+            <image class='addressIcon' src="../../img/logo.png" ></image>
+          </view>
+          <view class="weui-cell__bd textAuto">第三十四期全国县市教育局长培训班第三十四期全国县市教育局长培训班</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access">555</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+
+  <view class='weui-panel'>
+    <view class='weui-panel__hd'>
+      <view class="weui-cells weui-cells_after-title">
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__hd">
+             <image class='addressIcon' src="../../img/logo.png" ></image>
+          </view>
+          <view class="weui-cell__bd textAuto">第三十四期全国县市教育局长培训班第三十四期全国县市教育局长培训班</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access">55</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

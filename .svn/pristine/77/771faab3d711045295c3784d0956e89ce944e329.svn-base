@@ -1,0 +1,82 @@
+{
+  "pages": [
+"example/index",
+    "example/views/setInfo/setInfo",
+    "example/views/personalInfo/personalInfo",
+    "example/views/authorization/authorization",
+   
+    "example/views/pageList/pageList",
+    
+    "example/views/steering/steering",
+   
+    "example/welcome/welcome",
+    "example/message/message",
+    "example/operation/operation",
+    "example/word/word",
+    "example/button/button",
+    "example/list/list",
+    "example/input/input",
+    "example/slider/slider",
+    "example/uploader/uploader",
+    "example/article/article",
+    "example/badge/badge",
+    "example/flex/flex",
+    "example/footer/footer",
+    "example/gallery/gallery",
+    "example/grid/grid",
+    "example/icons/icons",
+    "example/loadmore/loadmore",
+    "example/panel/panel",
+    "example/preview/preview",
+    "example/progress/progress",
+    "example/actionsheet/actionsheet",
+    "example/dialog/dialog",
+    "example/msg/msg",
+    "example/msg/msg_success",
+    "example/msg/msg_fail",
+    "example/picker/picker",
+    "example/toast/toast",
+    "example/navbar/navbar",
+    "example/tabbar/tabbar",
+    "example/searchbar/searchbar"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "国家教育行政学院",
+    "navigationBarBackgroundColor": "#36a7ff",
+    "backgroundColor": "#36a7ff"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#36a7ff",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "example/views/setInfo/setInfo",
+        "text": "页面列表",
+        "iconPath": "example/images/icon_nav_widgetno.png",
+        "selectedIconPath": "example/images/icon_nav_widget.png"
+      },
+      {
+        "pagePath": "example/index",
+        "text": "组件",
+        "iconPath": "example/images/icon_nav_formno.png",
+        "selectedIconPath": "example/images/icon_nav_form.png"
+      },
+      {
+        "pagePath": "example/welcome/welcome",
+        "text": "我的",
+        "iconPath": "example/images/icon_nav_widgetno.png",
+        "selectedIconPath": "example/images/icon_nav_widget.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

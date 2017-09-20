@@ -1,0 +1,78 @@
+<!--example/views/signList/signList.wxml-->
+<view class='page'>
+  <view class='page__bd'>
+    <view class="weui-panel">
+
+      <view class="weui-panel__hd">
+        <view class='signContent'>
+          <view class='signDate'>9月22日</view>
+          <view class='signInfo'>
+            <view class='signTitle'>教育刚要讨论会教育刚要讨论会</view>
+            <view>09:00--11：00</view>
+          </view>
+          <view class='signTime'>
+            <label>签到：</label>08:45
+          </view>
+        </view>
+      </view>
+
+      <view class="weui-panel__hd">
+        <view class='signContent'>
+          <view class='signDate'>9月21日</view>
+          <view class='signInfo'>
+            <view class='signTitle'>教育刚要讨论会教育刚要讨论会</view>
+            <view>15:15--17：00</view>
+          </view>
+          <view class='signTime'>
+            <label>签到：</label>15:25
+          </view>
+        </view>
+      </view>
+
+      <view class="weui-panel__hd">
+        <view class='signContent'>
+          <view class='signDate'>9月21日</view>
+          <view class='signInfo'>
+            <view class='signTitle'>教育刚要讨论会教育刚要讨论会</view>
+            <view>13:30--15：00</view>
+          </view>
+          <view class='signTime'>
+            <label>签到：</label>13:45
+          </view>
+        </view>
+      </view>
+
+      <view class="weui-panel__hd">
+        <view class='signContent'>
+          <view class='signDate'>9月21日</view>
+          <view class='signInfo'>
+            <view class='signTitle'>教育刚要讨论会教育刚要讨论会</view>
+            <view>10:15--12：00</view>
+          </view>
+          <view class='signTime'>
+            <label>签到：</label>10:10
+          </view>
+        </view>
+      </view>
+
+
+      <view class="weui-panel__hd">
+        <view class='signContent'>
+          <view class='signDate'>9月21日</view>
+          <view class='signInfo'>
+            <view class='signTitle'>教育刚要讨论会教育刚要讨论会</view>
+            <view>08:00--10：00</view>
+          </view>
+          <view class='signTime'>
+            <label>签到：</label>07:45
+          </view>
+        </view>
+      </view>
+
+
+
+
+
+    </view>
+  </view>
+</view>

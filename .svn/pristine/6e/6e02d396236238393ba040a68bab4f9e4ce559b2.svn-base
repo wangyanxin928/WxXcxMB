@@ -1,0 +1,2 @@
+/* example/views/courseDetails/courseDetails.wxss */
+.headerTitle{width: 60%;}

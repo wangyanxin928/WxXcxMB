@@ -1,0 +1,108 @@
+<!--example/views/discussList/discussList.wxml-->
+<view class="page">
+
+  <view class=" weui-panel">
+    <view class='courseDetails'>
+      <view class="weui-panel__hd">
+        <view class='sectionBox'>
+          <view class='sectionTitleBox'>
+            <image class="courseIcon" src="../../img/titleIcon.png"></image>
+            <text class='headerTitle'>教育刚要讨论</text>
+          </view>
+          <text class='sectionTime'>09:00--11:00</text>
+        </view>
+        <view class='sectionInfo '>
+          <label class=''>教员：赵鑫</label>
+          <label>地点：第一会议室</label>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="page__bd discussInfoList">
+    <view class='discussInfo'>
+      <label>白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+    <view class='discussInfo'>
+      <label>完颜希 </label>回复
+      <label> 白宇熙</label>：
+      <text>史可法拉萨金六福酒洒了佛教萨来得及发</text>
+    </view>
+  </view>
+
+
+  <view class="addDiscussBox">
+      <view class='addDiscussTitleBox'>
+        <image class="courseIcon" src="../../img/write.png"></image>
+        <input  placeholder='发表评论...'></input>
+      </view>
+      <view class='addDiscuss'>
+        <image class='icon' src='../../img/addDiscussIcon.png'></image>
+      </view>
+  </view>
+</view>

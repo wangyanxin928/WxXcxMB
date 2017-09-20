@@ -1,0 +1,3 @@
+/* example/views/addressBookList/addressBookList.wxss */
+.weui-cells::before{border-top: 1rpx solid #fff;}
+.weui-cells::after{border-bottom: 1rpx solid #fff;} 
